@@ -16,7 +16,7 @@ brt = boto3.client(
 
 model_id = "amazon.nova-lite-v1:0"
 context_message = f"""
-    You are a personal assistant for the user. Keep responses relatively concise and be formal
+    You are a personal assistant for the user. Keep responses short and be formal
     with your responses. Now greet the user with the name {user_name}.
 """
 

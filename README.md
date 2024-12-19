@@ -2,13 +2,20 @@
 
 Create a .env file with necessary environment variables.
 
+```bash
 brew install portaudio
+```
 
-create venv: python3 -m venv .venv
+Create venv:
+
+```bash
+python3 -m venv .venv
 
 source .venv/bin/activate
 pip install -r requirements.txt
 deactivate
+```
+
 
 When you add new libraries: pip freeze > requirements.txt
 
