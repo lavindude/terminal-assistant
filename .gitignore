@@ -1,0 +1,5 @@
+.venv
+realtimesst.log
+__pycache__
+
+.env
