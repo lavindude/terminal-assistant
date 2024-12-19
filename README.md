@@ -1,3 +1,5 @@
+# Setup + Development
+
 Create a .env file with necessary environment variables.
 
 brew install portaudio
@@ -10,7 +12,7 @@ deactivate
 
 When you add new libraries: pip freeze > requirements.txt
 
-Thoughts/challenges:
+# Thoughts/challenges
 - memory log will get stored as context and sent to bedrock, this could be very large
 and cause lm delay
 - conversation array could have the same issue
